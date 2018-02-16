@@ -67,5 +67,5 @@ post = client.new_post('PROFILE_ID', 'TEXT', True)
 ## Requirements
 - requests
 
-## TODO Endpoints
+## TODO
 - unittest
