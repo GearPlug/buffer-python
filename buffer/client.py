@@ -1,4 +1,3 @@
-import urllib
 import requests
 from urllib.parse import urlencode
 from buffer import exceptions
