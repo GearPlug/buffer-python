@@ -233,7 +233,7 @@ class Client(object):
 
     def _parse(self, response):
         status_code = response.status_code
-        if 'application/x-www-form-urlencoded' in response.headers['Content-Type']:
+        if 'application/json' in response.headers['Content-Type']:
             r = response.json()
         else:
             r = response.text
