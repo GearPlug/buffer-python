@@ -4,7 +4,7 @@ Buffer-python is an API wrapper for the API v1 of Buffer written in Python
 
 ## Installing
 ```
-pip install git+git://github.com/GearPlug/buffer-python.git
+pip install buffer-python-lib
 ```
 
 ## Usage
